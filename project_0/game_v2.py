@@ -44,6 +44,9 @@ def score_game(random_predict) -> int:
     print(f"Ваш алгоритм угадывает число в среднем за:{score} попыток")
     return score
 
+#Run benchmarking to score effectiveness of all algorithms
+print('Run benchmarking for random_predict: ', end='')
+score_game(random_predict)
 
 if __name__ == "__main__":
     # RUN

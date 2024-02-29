@@ -46,7 +46,7 @@ def game_core_v3(number: int = 1) -> int:
     return count
 
 def score_game(game_core_v3) -> int:
-    """За какое количество попыток в среднем за 10000 подходов угадывает наш алгоритм
+    """За какое количество попыток в среднем за 1000 подходов угадывает наш алгоритм
 
     Args:
         random_predict ([type]): функция угадывания
@@ -55,8 +55,8 @@ def score_game(game_core_v3) -> int:
         int: среднее количество попыток
     """
     count_ls = []
-    np.random.seed(1)  # фиксируем сид для воспроизводимости
-    random_array = np.random.randint(1, 101, size=(1000))  # загадали список чисел
+    np.random.seed(1)  #Фиксируем сид для воспроизводимости
+    random_array = np.random.randint(1, 101, size=(1000))  #Загадываем список чисел
 
     for number in random_array:
         count_ls.append(game_core_v3(number))

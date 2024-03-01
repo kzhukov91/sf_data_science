@@ -5,7 +5,7 @@
 [2. Какой кейс решаем?](https://github.com/kzhukov91/sf_data_science/blob/main/project_0/README.md#Какой-кейс-решаем)  
 [3. Краткая информация о данных](https://github.com/kzhukov91/sf_data_science/blob/main/project_0/README.md#Краткая-информация-о-данных)  
 [4. Этапы работы над проектом](https://github.com/kzhukov91/sf_data_science/blob/main/project_0/README.md#Этапы-работы-над-проектом)  
-[5. Результат](https://github.com/kzhukov91/sf_data_science/blob/main/project_0/README.md#Результат)    
+[5. Результаты](https://github.com/kzhukov91/sf_data_science/blob/main/project_0/README.md#Результат)    
 [6. Выводы](https://github.com/kzhukov91/sf_data_science/blob/main/project_0/README.md#Выводы) 
 
 ### Описание проекта    
@@ -41,14 +41,14 @@
 
 :arrow_up:[к оглавлению](https://github.com/kzhukov91/sf_data_science/blob/main/project_0/README.md#Оглавление)
 
-### Результаты:  
+### Результаты  
 Реализованный в game_v1.py метод показывает в среднем за 1000 запусков 101 попытку на угадывание, что вполне можно было изначально предположить (число попыток должно быть около 100).
 Алгоритм в game_v2.py улучшает показатель - в среднем 33 попытки на угадывание за 1000 запусков
 Написанный в ходе выполнения проекта код game_v3.py показывает в среднем 5 попыток за 1000 запусков, что является наилучшим результатом среди представленных меодов
 
 :arrow_up:[к оглавлению](https://github.com/kzhukov91/sf_data_science/blob/main/project_0/README.md#Оглавление)
 
-### Выводы:  
+### Выводы 
 Методом, использованным в game_v3.py удалось добиться снижения количества попыток на угадывание числа от 0 до 100 в среднем до 5 попыток за 1000 запусков программы
 
 :arrow_up:[к оглавлению](https://github.com/kzhukov91/sf_data_science/blob/main/project_0/README.md#Оглавление)
